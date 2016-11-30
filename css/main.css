@@ -1,0 +1,96 @@
+
+/*-----header-------*/
+.menu h2{
+    margin-left: 50px;
+}
+.list-inline {
+    text-align: right;
+    margin: 20px;
+}
+.list-inline a{
+    padding: 5px 10px;
+    color:black;
+}
+/*-------section1----*/
+.frase{
+    background-image: url(../img/home.jpg);
+    width: 100%;
+    height:460px;
+}
+.chicas{
+    text-align: center;
+    margin: 180px;
+}
+.chicas h2{
+    color: white;
+}
+.chicas button{
+    padding: 8px 20px;
+    background:rgb(51,122,185);
+    border-radius: 6px;
+    color: white;
+}
+/*-------section2------*/
+.documental h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px
+}
+.documental h4{
+    text-align: center;
+}
+/*-----section3-----*/
+.hackathon{
+    background: #ffff00;
+    height:360px;
+    margin: 50px auto;
+}
+.reuniones{
+    margin: 50px auto;
+}
+.participa{
+    margin:30px auto;
+}
+.participa h4{
+    text-align: center;
+    font-size: 20px;
+}
+.participa button{
+    background:rgb(51,122,185);
+    padding:8px 20px;
+    border-radius: 6px;
+    color: white;
+}
+/*------section4-------*/
+.contacto h5{
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.mensaje{
+    position: relative;
+    height: 130px;
+    
+}
+.laptop img{
+   margin: 40px auto;
+}
+.contacto button{
+    padding: 5px 30px;
+    background:rgb(51,122,185);
+    color: white;
+    margin-bottom: 50px;
+}
+/*-------footer-----*/
+.footer{
+    background: #4497a3;
+    padding: 24px;
+}
+.footer h6{
+    font-size: 15px;
+    color: white;
+}
+.footer a{
+    color:#ffff05;
+}
