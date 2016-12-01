@@ -16,6 +16,7 @@
     background-image: url(../img/home.jpg);
     width: 100%;
     height:460px;
+    background-size: cover;
 }
 .chicas{
     text-align: center;
@@ -31,10 +32,12 @@
     color: white;
 }
 /*-------section2------*/
+.documental{
+    padding: 6% 0%;
+}
 .documental h3{
     text-align: center;
     font-size: 30px;
-    padding: 30px
 }
 .documental h4{
     text-align: center;
@@ -42,9 +45,9 @@
 /*-----section3-----*/
 .hackathon{
     background: #ffff00;
-    height:360px;
-    margin: 50px auto;
+    padding:  0 0 40px;
 }
+
 .reuniones{
     margin: 50px auto;
 }
