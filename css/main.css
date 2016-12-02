@@ -1,22 +1,15 @@
 
-/*-----header-------*/
-.menu h2{
-    margin-left: 50px;
-}
-.list-inline {
-    text-align: right;
-    margin: 20px;
-}
-.list-inline a{
-    padding: 5px 10px;
-    color:black;
-}
 /*-------section1----*/
 .frase{
-    background-image: url(../img/home.jpg);
+    background:url("../img/Laboratoria.jpg");
     width: 100%;
-    height:460px;
-    background-size: cover;
+	min-height:641px;
+background-size:130% 100%;
+	background-attachment:fixed;
+    
+}
+.frase h2{
+    font-size: 28px;
 }
 .chicas{
     text-align: center;
@@ -79,11 +72,12 @@
 .laptop img{
    margin: 40px auto;
 }
+
 .contacto button{
     padding: 5px 30px;
     background:rgb(51,122,185);
     color: white;
-    margin-bottom: 50px;
+    margin: 20px;
 }
 /*-------footer-----*/
 .footer{
@@ -96,4 +90,11 @@
 }
 .footer a{
     color:#ffff05;
+}
+
+/*-----responsive-------*/
+@media screen and (max-width: 768px){
+    .frase h2{
+        width: 100%;
+    }
 }
